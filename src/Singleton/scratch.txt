@@ -1,0 +1,20 @@
+🛠 Mini Project: App Configuration Manager
+
+📌 Problem:
+We want a central place to load and access configuration settings (e.g., app name, version, environment).
+
+The config should:
+
+Be loaded only once
+Be accessible globally
+Prevent reloading or duplication
+
+✅ Features:
+Singleton class AppConfigManager
+Loads config from a file (simulated)
+Provides getters to read config values
+
+💡 Optional Extensions:
+Load config from a .properties file
+Support reloading configs via a public reload() method
+Make it thread-safe
