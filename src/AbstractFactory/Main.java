@@ -7,8 +7,8 @@ import AbstractFactory.UIFactory.UIFactory;
 import AbstractFactory.UIFactory.WindowsUIFactory;
 
 class Application {
-    private Button button;
-    private CheckBox checkBox;
+    private final Button button;
+    private final CheckBox checkBox;
 
     public Application (UIFactory factory) {
         button = factory.createButton();
